@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "kosmos:cosmium_ore",
+    "kosmos:cosmium_block",
+    "kosmos:hull_plating"
+  ]
+}

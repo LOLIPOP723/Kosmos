@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "RR",
+    "RR"
+  ],
+  "key": {
+    "R": {
+      "item": "kosmos:lunar_rock"
+    }
+  },
+  "result": {
+    "id": "kosmos:lunar_bricks",
+    "count": 4
+  }
+}

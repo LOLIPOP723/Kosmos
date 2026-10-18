@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "IQI",
+    "QIQ",
+    "IQI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Q": {
+      "item": "kosmos:cosmium_ingot"
+    }
+  },
+  "result": {
+    "id": "kosmos:hull_plating",
+    "count": 4
+  }
+}

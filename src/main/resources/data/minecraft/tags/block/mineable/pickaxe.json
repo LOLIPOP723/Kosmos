@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "kosmos:cosmium_ore",
+    "kosmos:cosmium_block",
+    "kosmos:lunar_rock",
+    "kosmos:lunar_bricks",
+    "kosmos:hull_plating",
+    "kosmos:starlight_crystal"
+  ]
+}

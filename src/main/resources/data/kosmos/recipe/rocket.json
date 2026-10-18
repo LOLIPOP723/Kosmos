@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kosmos:rocket_hull_part"
+    },
+    {
+      "item": "kosmos:rocket_engine_part"
+    },
+    {
+      "item": "kosmos:rocket_cockpit_part"
+    },
+    {
+      "item": "kosmos:cosmium_ingot"
+    }
+  ],
+  "result": {
+    "id": "kosmos:rocket",
+    "count": 1
+  }
+}

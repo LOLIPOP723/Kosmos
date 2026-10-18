@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "kosmos:cosmium_block"
+    }
+  ],
+  "result": {
+    "id": "kosmos:cosmium_ingot",
+    "count": 9
+  }
+}

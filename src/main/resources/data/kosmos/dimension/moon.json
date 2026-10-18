@@ -1,0 +1,21 @@
+{
+  "type": "kosmos:moon",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "kosmos:lunar_plains",
+      "features": true,
+      "lakes": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "kosmos:lunar_rock",
+          "height": 60
+        }
+      ]
+    }
+  }
+}

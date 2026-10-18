@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "kosmos:starlight_shard"
+    },
+    {
+      "item": "kosmos:cosmium_ingot"
+    }
+  ],
+  "result": {
+    "id": "kosmos:crew_badge",
+    "count": 2
+  }
+}
