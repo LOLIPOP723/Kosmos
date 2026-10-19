@@ -75,7 +75,7 @@ public class RocketEntity extends Entity {
 
     /** Wahr, wenn Spieler im Flug nicht aussteigen duerfen. */
     public boolean isDismountLocked() {
-        return !isRemoved() && !allowDismount && state() == FLYING && hasPassengers();
+        return !isRemoved() && !allowDismount && state() == FLYING && !getPassengers().isEmpty();
     }
 
     // ---------- Interaktion ----------
@@ -95,7 +95,7 @@ public class RocketEntity extends Entity {
             return false;
         }
         if (!level().isClientSide && !isRemoved() && source.getEntity() instanceof Player player
-                && !hasPassengers() && state() == PARKED) {
+                && !getPassengers().isEmpty() && state() == PARKED) {
             if (!player.getAbilities().instabuild) {
                 spawnAtLocation(ModItems.ROCKET.get());
             }
